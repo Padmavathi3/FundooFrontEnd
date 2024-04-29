@@ -1,0 +1,43 @@
+<div class="signup-box">
+    <form [formGroup]="signupForm">
+    <div class="signup-main-cnt">
+        <div class="signup-form">
+            <h2>Fundoo</h2>
+            <h3>Create Your Fundoo Account</h3>
+            <div class="names">
+              <mat-form-field appearance="outline">
+                <mat-label>First Name</mat-label>
+                <input matInput placeholder="Enter FirstName" formControlName="firstname">
+                <mat-error *ngIf="signupControl['firstname']?.hasError('required')">FirstName required</mat-error>
+              </mat-form-field>
+              <mat-form-field appearance="outline" class="lname">
+                <mat-label>Last Name</mat-label>
+                <input matInput placeholder="Enter LastName" formControlName="lastname">
+                <mat-error *ngIf="signupControl['lastname']?.hasError('required')">LastName required</mat-error>
+              </mat-form-field>
+           </div>
+            <mat-form-field appearance="outline">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="Enter Email" formControlName="email">
+                <mat-error *ngIf="signupControl['email']?.hasError('required')">Email required</mat-error>
+                <mat-error *ngIf="signupControl['email']?.hasError('email')">Incorrect Email</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="password">
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="Enter Password" formControlName="password">
+                <mat-error *ngIf="signupControl['password']?.hasError('required')">Password required</mat-error>
+                <mat-error *ngIf="signupControl['password']?.hasError('minlength')">Password should contain 6 characters</mat-error>
+            </mat-form-field>
+            <div>Password should contain at least 8 characters with letters, numbers, and symbols</div>
+            <div class="signup-inner">
+                <button mat-button color="primary" class="login">Already have an Account</button>
+                <button mat-flat-button color="primary" class="signup" (click)="handleSignup()">Sign Up</button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="assets/images/login.jpg" alt="Description of the image" width="200px" height="200px">
+            <div class="image-content"><h3>One account is working for all Fundoo</h3></div>
+        </div>
+    </div>
+    </form>  
+</div>

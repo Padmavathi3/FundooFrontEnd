@@ -1,0 +1,18 @@
+<div class="header-cnt">
+    <div class="header">
+        <mat-icon class="menu-icon" (click)="handleDrawerClick()" svgIcon="menu-icon" aria-hidden="false" aria-label="Note SVG icon"></mat-icon>
+        <img src="assets/images/FundooLogo.png" alt="Description of the image">
+        <span class="content">Keep</span>
+        <div class="search-container">
+            <input [(ngModel)]="searchString" (input)="handleSearchString()" type="text" class="search-input" placeholder="Search...">
+            <mat-icon class="search-icon" svgIcon="search-icon" aria-hidden="false" aria-label="Search SVG icon"></mat-icon>
+        </div>
+        <mat-icon class="refresh-icon"  svgIcon="refresh-icon" aria-hidden="false" aria-label="Note SVG icon"></mat-icon>
+        <mat-icon class="listView-icon"  svgIcon="listView-icon" aria-hidden="false" aria-label="Note SVG icon"></mat-icon>
+        <mat-icon class="setting-icon"  svgIcon="setting-icon" aria-hidden="false" aria-label="Note SVG icon"></mat-icon>
+        <img class="apps-image" src="assets/images/GoogleApps.png" alt="Description of the image" >
+        <span class="google-account">P</span>
+     </div>
+     
+</div>
+

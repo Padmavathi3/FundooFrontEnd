@@ -1,0 +1,198 @@
+.note-card-outer-cnt{
+    display: flex;
+    flex-direction: row;
+    // gap:25px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    width:90%;
+    flex-wrap: wrap;
+    
+
+}
+.note-card-cnt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border:1px solid black;
+  border-radius: 10px;
+//   min-width: 100px;
+//   max-width: 300px;
+  width:250px;
+  margin: 20px 0px;
+  min-height:30px;
+  max-height: fit-content;
+  padding: 10px;
+  transition: box-shadow 0.3s;
+
+  &:hover {
+             .note-card-icons-cnt {
+                 visibility: visible;
+             }
+             .pin{
+                visibility: visible;
+             }
+             box-shadow: 0 -4px 4px -4px rgba(0, 0, 0, 0.3), // Top
+                -4px 0 4px -4px rgba(0, 0, 0, 0.3), // Left
+                4px 0 4px -4px rgba(0, 0, 0, 0.3),  // Right
+                0 6px 6px -2px rgba(0, 0, 0, 0.2);  // Bottom
+             
+        }
+}
+.note-card-title-pin-cnt{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+
+    span{
+        overflow:hidden;
+        width:85%;
+    }
+}
+.note-card-icons-cnt {
+    display: flex;
+   justify-content: space-between;  
+    visibility: hidden;
+    width:100%;
+}
+.pin{
+    
+    visibility: hidden;
+}
+
+
+.note-card-desc-cnt{
+    overflow-wrap: break-word;
+    width:100%;
+}
+
+
+.more-icon-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.color-palate-cnt{
+    display: flex;
+    flex-direction: row;
+    //justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 8px;
+    border-radius: 8px;
+    width: 300px;
+    gap:25px;
+
+}
+.col1{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    height: 50px;
+    width:50px;
+}
+.col2{
+    background-color: #FAAFA8;
+    border: 1px solid #FAAFA8;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+.col3{
+    background-color: #F39F76;
+    border: 1px solid #F39F76;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+.col4{
+background-color: #FFF8B8;
+    border: 1px solid #FFF8B8;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+.col5{
+background-color: #E2F6D3;
+    border: 1px solid #E2F6D3;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+
+.col6{
+background-color: #B4DDD3;
+    border: 1px solid #B4DDD3;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+
+.col7{
+background-color: #D4E4ED;
+    border: 1px solid #D4E4ED;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+
+.col8{
+background-color: #AECCDC;
+    border: 1px solid #AECCDC;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+
+.clo9{
+background-color: #D3BFDB;
+    border: 1px solid #D3BFDB;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+
+.col10{
+background-color: #F6E2DD;
+    border: 1px solid #F6E2DD;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+.col11{
+background-color: #E9E3D4;
+    border: 1px solid #E9E3D4;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+
+.col12{
+background-color: #EFEFF1;
+    border: 1px solid #EFEFF1;
+    border-radius: 10px;
+    height: 50px;
+    width:50px;
+}
+
+//.note-card-cnt {
+//     width: 190px;
+//     height:100px;
+//     display: flex;
+//     flex-direction: column;
+//     border: 1px solid black;
+//     padding: 10px;
+//     margin: 15px;
+//     &:hover {
+//         .note-card-icons-cnt {
+//             visibility: visible;
+//         }
+//     }
+//     border-radius: 10px;
+//     margin-left: 350px;
+//     margin-top: 30px;
+// }
+// .note-card-icons-cnt {
+//     display: flex;
+//     gap: 15px;      
+//     visibility: hidden;
+// }

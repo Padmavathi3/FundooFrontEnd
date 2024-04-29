@@ -1,0 +1,74 @@
+.login-box {
+    border: 3px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    padding: 70px; /* Padding inside the box */
+    width: 400px; /* Adjust the width as needed */
+    margin: 80px 500px;
+}
+
+  
+.login-main-cnt {
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+}
+
+.fundoo {
+    color: goldenrod;
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align: center; /* Center vertically */
+
+}
+
+.signin {
+    color: black;
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align: center; /* Center vertically */
+
+}
+
+.account {
+    color: green;
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align: center; /* Center vertically */
+
+}
+
+.forgot {
+    align-self: flex-start; /* Align the button to the start (left) */
+    margin-bottom: 30px;
+}
+
+.signup {
+    align-self: flex-start; /* Align the button to the start (left) */
+}
+
+.login-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.login {
+    margin-left: auto; /* Push the button to the right */
+}
+
+
+
+
+
+
+
+
+
+
+
+

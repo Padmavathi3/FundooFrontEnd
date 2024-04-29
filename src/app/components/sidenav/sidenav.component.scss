@@ -1,0 +1,38 @@
+::ng-deep .app-sidenav-cnt{
+    width:100%;
+    height:calc(100vh - 56px);
+    display: flex;
+}
+.container {
+    display: flex;
+    // height: 90vh;
+}
+
+.sidenav-cnt {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.sidebar-item span {
+    margin-right: 38px; /* Add space after the content of the icon */
+}
+// .mat-icon {
+//     margin-right: 40px; /* Increase the space between icon and text */
+//     margin-bottom:20px;
+//     font-size: 24px; /* Increase the size of the icon */
+// }
+
+.drawer-router-outlet-cnt{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.close-drawer-cnt{
+    width:calc(5% - 40px);
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 15px 20px;
+    align-items: center;
+}

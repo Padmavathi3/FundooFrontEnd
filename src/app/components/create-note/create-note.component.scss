@@ -1,0 +1,101 @@
+::ng-deep .app-create-note-cnt{
+width:100%;
+display: flex;
+justify-content: center;
+}
+.note-outside-container{
+    display:flex;
+    flex-direction: row;
+    border:1px solid black;
+    margin-top: 70px;
+    border-radius: 8px;
+    height:43px;
+    padding:0px 15px;
+    width:50%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -4px 4px -4px rgba(0, 0, 0, 0.3), // Top
+    -4px 0 4px -4px rgba(0, 0, 0, 0.3), // Left
+    4px 0 4px -4px rgba(0, 0, 0, 0.3),  // Right
+    0 6px 6px -2px rgba(0, 0, 0, 0.2);  // Bottom
+}
+.note-icons-cnt{
+    display: flex;
+    gap:20px;
+    
+    }
+
+//----------------------------------------
+.notes-cnt{
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    margin-top: 70px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    // height:130px;
+    width:50%;
+    box-shadow: 0 -4px 4px -4px rgba(0, 0, 0, 0.3), // Top
+    -4px 0 4px -4px rgba(0, 0, 0, 0.3), // Left
+    4px 0 4px -4px rgba(0, 0, 0, 0.3),  // Right
+    0 6px 6px -2px rgba(0, 0, 0, 0.2);  // Bottom
+    background-color: white;
+}
+.create-note-title-cnt{
+width:100%;
+display: flex;
+justify-content: space-between;
+
+input {
+    border: none; /* Remove border for input fields */
+    padding-top: 3px; /* Adjust padding as needed */
+    
+    height: 50px; /* Increased height for input fields */
+    outline: none; /* Hide outline when hovering */
+    width:85%;
+}
+}
+.create-note-desc-cnt{
+    border: none; /* Remove border for input fields */
+    padding-top: 3px; /* Adjust padding as needed */
+    text-decoration: none;
+   
+    outline: none; /* Hide outline when hovering */
+    width:100%;
+}
+
+::placeholder {
+    font-weight: bold;
+}
+
+.note-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.create-note-icons-cnt{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    
+    
+}
+
+
+.more-icon-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+    
+    
+    
+    
+    
+

@@ -1,0 +1,5 @@
+<div class="create-note-note-card-cnt">
+
+    <app-create-note (handleUpdateList)="updateNotesList($event)"></app-create-note>
+    <app-note-card [container]="'notes'" [noteObjList]="notesList" (handleUpdateList)="updateNotesList($event)"></app-note-card>
+</div>

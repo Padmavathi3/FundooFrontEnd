@@ -1,0 +1,88 @@
+.header-cnt {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    direction: row;
+    border-bottom: 1px solid black;
+    width:100%;
+}
+
+.header {
+    width: calc(100% - 40px);
+    
+    height: 35px;
+    padding: 10px 20px; /* Combined padding for top and left */
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.menu-icon {
+    margin-right: 10px; /* Add some space between the icon and other content */
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.content {
+    font-size: 25px;
+    margin-right: 150px;
+}
+
+.search-input {
+    width: 550px; /* Set width of input field */
+    height:28px;
+    padding: 5px; /* Add padding */
+    border-radius: 8px;
+    text-indent: 30px; /* Adjust as needed */
+}
+
+.search-icon {
+    height:20px;
+    width:15px;
+    margin-left: -550px; /* Adjust the left margin as needed */
+    line-height: 0px;
+    padding-bottom: 1px;
+
+
+}
+.search-container
+{
+    display: flex;
+    align-items: center;
+}
+
+.refresh-icon
+{
+    margin-left: 900px;
+    margin-right:20px;
+}
+.listView-icon{
+    margin-right:20px;
+}
+.apps-image{
+    width:30px;
+    height:30px;
+    margin-left:65px
+}
+
+.google-account {
+    border: 1px solid;
+    border-radius: 50%; /* Set border-radius to 50% for a circle */
+    padding: 8px 10px;
+    display: inline-block; /* Ensure the element behaves as a block-level element */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
